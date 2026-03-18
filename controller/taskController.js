@@ -13,10 +13,7 @@ const newTask=await Manager.create({
   title,
   description
 })
-
-res.status(201).json({
-  message:"Task created Successfully"
-})
+res.status(201).json(newTask)  // <-- send the full task
 
 
 
