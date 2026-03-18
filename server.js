@@ -12,7 +12,7 @@ app.use('/tasks',userRoutes)
 
 //moongo connection
 
-mongoose.connect('mongodb+srv://taimourkhokhar:khokhar123@cluster0.oy289hd.mongodb.net/?appName=Cluster0').then(()=>{
+mongoose.connect('mongo db link ').then(()=>{
   console.log("MongoDB connected successfully")
 
   
